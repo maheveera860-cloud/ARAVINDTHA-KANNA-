@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body bgcolor="pink">
+  <center>
+  <h1>🎶 Explore Music Events</h1>
+
+  <div class="gallery">
+    <!-- Music Event -->
+    <div class="card" onclick="showDetails('music')">
+      <img src="music-event.jpg" alt="Music Event">
+      <h2>
+      <p class="caption">Rock, DJs, and Indie vibes</p>
+      </h2>
+    </div>
+    <hr>
+
+    <!-- Tropical Party -->
+    <div class="card" onclick="showDetails('tropical')">
+      <img src="tropical-party.jpg" alt="Tropical Party">
+      <h3>
+      <p class="caption">Neon lights & tropical beats</p>
+      </h3>
+    </div>
+    <hr>
+
+    <!-- Hip Hop Festival -->
+    <div class="card" onclick="showDetails('hiphop')">
+      <img src="hiphop-festival.jpg" alt="Hip Hop Festival">
+      <h4>
+
+      <p class="caption">Legends of Hip Hop unite</p>
+      </h4>
+    </div>
+    <hr>
+  </div>
+
+  <div id="details" class="hidden">
+    <h2 id="eventTitle"></h2>
+    <p id="eventInfo"></p>
+  </div>
+
+  <script src="script.js"></script>
+  <p>Entry Fee 1000 | Free Food | Pets Are Not Allowed
+  </p>
+  <h3>contact</h3>
+  <p>event@gmail.com</p>
+  <p>address:anna nagar chennai</p>
+  <p>
+    <a href="register.html">Register For event</a> <a href="instagram">Instagram</a> <a href="youtube">Youtube</a>
+  </p>
+  </center>
+</body>
+</html>
